@@ -25,7 +25,7 @@ If you proceed to column *I*, meant for *actual_price*, you will notice that the
 So select it and get it fixed with the correct value.
 As for column *J*, checked. Column *K* has this symbol | on it, Select it and click OK. In Data Analysis,  you can either use N/A meaning not available for characters or 0 for numbers where we are unsure.. So we replace the delimiter | with  "0"
 In column *L*, you'll notice *Blanks*. So click it to see the products affected. Since in Data Analysis, we can use "0" for price or number column where we are unsure. We replace the Blank rating count with "0".
-Nothing to be fixed on columns *M to T* respectively. So checked ✅
+Nothing to be fixed on columns *M to T* respectively. Checked 
 
 NEXT is *Calculated Columns*
 Lets start with *Total Potential Revenue*
