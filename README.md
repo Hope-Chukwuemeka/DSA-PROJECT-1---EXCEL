@@ -1,7 +1,7 @@
 # DSA-PROJECT-1---EXCEL
 Amazon Product Review Analysis - My detailed analysis on this project will assist the management on product improvement, marketing strategies and customer engagement. They will know the areas of the business to focus on. It will be a guide for them to know the businesses that are working and the ones that are not working.
 
-CASE STUDY 1: Amazon Product Review Analysis
+CASE STUDY 1: Amazon Product Review Analysis.
 
 No product should have more than a record since its all about reviews and ratings. This is *Ultimate Underlying Assumption:*
 To get that done with the dataset, duplicated - Product_Id were removed, to confirm if there are duplicated products- I simply Clicked on any cell within the dataset and apply *Ctrl + A* to highlight all the data.
