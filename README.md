@@ -23,7 +23,7 @@ Confirm that columns *H* to *L* values are reliable. Use the filter tool to vali
 From Data Tab, click on filter. Since we are done with column *A-G*, so you do this for column *H* and the rest of the columns. Most irregulars are often at the TOP or BOTTOM of the values listings.
 If you proceed to column *I*, meant for *actual_price*, you will notice that the data type is incorrect. The correct value should be have been *139,900*, but it was written – 1,39,900
 So select it and get it fixed with the correct value.
-As for column *J*, checked ✅. Column *K* has this symbol | on it, Select it and click OK. In Data Analysis,  you can either use N/A meaning not available for characters or 0 for numbers where we are unsure.. So we replace the delimiter | with  "0"
+As for column *J*, checked. Column *K* has this symbol | on it, Select it and click OK. In Data Analysis,  you can either use N/A meaning not available for characters or 0 for numbers where we are unsure.. So we replace the delimiter | with  "0"
 In column *L*, you'll notice *Blanks*. So click it to see the products affected. Since in Data Analysis, we can use "0" for price or number column where we are unsure. We replace the Blank rating count with "0".
 Nothing to be fixed on columns *M to T* respectively. So checked ✅
 
@@ -42,19 +42,23 @@ Then you go *=IF(H2<200,"<₹200",IF(OR(H2=200,H2<=500),"₹200 - ₹500",">₹5
 Now that your dataset is cleaned now, click on any cell within your dataset and turn it to a table by applying *Ctrl + T*
 
 SOME FORMULARS USED:
-1.	To get Top 5 products by rating + number of reviews combined. I created CALCULATED COLUMNS:
+- 	To get Top 5 products by rating + number of reviews combined. I created CALCULATED COLUMNS:
 Create calculated column:
 =Average Rating + (Rating Count / Scaling Factor)
 (Choose a factor like 1000 to balance weight)
 Sort descending and pick top 5.
 
-2.	Formula used to get – *Discount Range Bucket* on Dataset:
+- 	Formula used to get – *Discount Range Bucket* on Dataset:
  =IF([@[discount_percentage]]>=50%,"Yes","No") 
 
-3.	*Discounts Range* formula:
+- 	*Discounts Range* formula:
  =IF([@[discount_percentage]]<=10%,"0-10%",IF([@[discount_percentage]]<=20%,"11-20%",IF([@[discount_percentage]]<=30%,"21-30%",IF([@[discount_percentage]]<=40%,"31-40%",IF([@[discount_percentage]]<=50%,"41-50%",IF([@[discount_percentage]]<=60%,"51-60%",IF([@[discount_percentage]]<=70%,"61-70%",IF([@[discount_percentage]]<=80%,"71-80%",IF([@[discount_percentage]]<=90%,"81-90%","91-100%"))))))))
+### Tools Used
+- Microsoft Excel for Data cleaning [Download here](https://www.microsoft.com)
+ - For data collection
+ - Data manipulation
 
 
-.
+
 
 
