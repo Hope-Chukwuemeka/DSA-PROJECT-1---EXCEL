@@ -57,6 +57,8 @@ Sort descending and pick top 5.
 - Microsoft Excel for Data cleaning [Download here](https://www.microsoft.com)
  - For data collection
  - Data manipulation
+ - 
+[EXCEL PROJECT - Amazon Case Study.xlsx](https://github.com/user-attachments/files/21052783/EXCEL.PROJECT.-.Amazon.Case.Study.xlsx)
 
 
 
