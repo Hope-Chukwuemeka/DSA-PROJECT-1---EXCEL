@@ -65,7 +65,7 @@ Sort descending and pick top 5.
     
  This is the Excel sheet used for Category split - [Category split.xlsx](https://github.com/user-attachments/files/21071330/Category.split.xlsx) 
 
-   
+
 ![Ex1](https://github.com/user-attachments/assets/80c6c986-a702-4868-a36e-5851b3d6064c)
 ![Ex2](https://github.com/user-attachments/assets/bca1143c-5960-4e88-a6d8-9a849d153c0d)
 ![Ex3](https://github.com/user-attachments/assets/b5b943b9-98c2-4940-ad3d-a45703e8c71a)
