@@ -57,6 +57,14 @@ Sort descending and pick top 5.
 - Microsoft Excel for Data cleaning [Download here](https://www.microsoft.com)
  - For data collection
  - Data manipulation
+
+ ### The Excel file submitted has 3-sheets
+   - Sheet 1 = Answers to Questions 1 to 14
+   - Sheet 2 = Dashboard
+   - Sheet 3 = Table for Data Analysis (Amazon Product Case Study)
+    
+ This is the Excel sheet used for Category split - [Category split.xlsx](https://github.com/user-attachments/files/21071330/Category.split.xlsx) 
+
    
 ![Ex1](https://github.com/user-attachments/assets/80c6c986-a702-4868-a36e-5851b3d6064c)
 ![Ex2](https://github.com/user-attachments/assets/bca1143c-5960-4e88-a6d8-9a849d153c0d)
